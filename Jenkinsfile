@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh './PES1UG22CS543-1'
+                sh './PES1UG22CS543-123'
             }
         }
         stage('Deploy') {
